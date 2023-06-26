@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">railway_system_portal</string>
+    <string-array name="start">
+        <item>"Ameerpet"</item>
+        <item> "Assembly"</item>
+        <item>"Begumpet"</item>
+        <item>"Bharatnagar"</item>
+        <item>"ChaitanyaPuri"</item>
+        <item>"Chikkadpally"</item>
+        <item>"Dilsukhnagar"</item>
+        <item>"Erragadda"</item>
+        <item>"ESI hospital"</item>
+        <item>"Gandhi Bhavan"</item>
+        <item>"Gandhi Hospital"</item>
+        <item>"Habsiguda"</item>
+
+
+    </string-array>
+    <string-array name="stop">
+        <item>"Ameerpet"</item>
+        <item> "Assembly"</item>
+        <item>"Begumpet"</item>
+        <item>"Bharatnagar"</item>
+        <item>"ChaitanyaPuri"</item>
+        <item>"Chikkadpally"</item>
+        <item>"Dilsukhnagar"</item>
+        <item>"Erragadda"</item>
+        <item>"ESI hospital"</item>
+        <item>"Gandhi Bhavan"</item>
+        <item>"Gandhi Hospital"</item>
+        <item>"Habsiguda"</item>
+
+
+    </string-array>
+</resources>

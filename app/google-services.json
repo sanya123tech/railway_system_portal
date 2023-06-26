@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "359881253233",
+    "project_id": "login-register-a3425",
+    "storage_bucket": "login-register-a3425.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359881253233:android:6487431d8eb3c0ad9b96d0",
+        "android_client_info": {
+          "package_name": "com.example.railway_system_portal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359881253233-f64usiqkv7ddkqkaocaddt42g3lo8vhq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDajf5NNMj1erTeJ_YwM8erjITQxsTLWUs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359881253233-f64usiqkv7ddkqkaocaddt42g3lo8vhq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
