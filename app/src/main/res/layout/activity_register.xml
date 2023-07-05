@@ -45,6 +45,7 @@
         android:background="@drawable/forget"
         android:paddingLeft="10dp"
         android:hint="Password"
+        android:inputType="textPassword"
         android:textColor="@color/light_black"
         android:textStyle="bold" />
 
@@ -57,6 +58,7 @@
         android:background="@drawable/forget"
         android:paddingLeft="20dp"
         android:hint="Confirm Password"
+        android:inputType="textPassword"
         android:textColor="@color/light_black"
         android:textStyle="bold" />
     <TextView

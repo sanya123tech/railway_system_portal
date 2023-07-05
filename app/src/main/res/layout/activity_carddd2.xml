@@ -9,74 +9,85 @@
     android:orientation="vertical"
     android:gravity="center_horizontal">
     <ImageView
-        android:layout_width="500dp"
+        android:layout_width="400dp"
         android:layout_height="350dp"
-        android:src="@drawable/logotrain"
+        android:src="@drawable/cardssss2"
         />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:text="Name on card"
+        android:textColor="@color/light_black"
+        android:textSize="25dp"
+        android:textStyle="bold"
         android:letterSpacing="0.1"
-        android:text="Login"
-        android:textColor="@color/darkblue"
-        android:textSize="35dp"
-        android:textStyle="bold" />
-
-
-
+        android:layout_marginTop="-45dp"/>
 
     <EditText
 
         android:id="@+id/email"
-        android:layout_width="350dp"
+        android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/forget"
         android:paddingLeft="10dp"
-        android:hint="Email"
         android:textColor="@color/light_black"
         android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Card number"
+        android:textColor="@color/light_black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:letterSpacing="0.1"
+        android:layout_marginTop="10dp"/>
+
 
     <EditText
 
-        android:id="@+id/password"
-        android:layout_width="350dp"
+        android:id="@+id/number"
+        android:layout_width="300dp"
         android:layout_height="50dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:background="@drawable/forget"
         android:paddingLeft="10dp"
-        android:hint="Password"
-        android:inputType="textPassword"
         android:textColor="@color/light_black"
         android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/regg"
-        android:text="New user? Register now"
-        android:textSize="18dp"
+        android:text="Expiry date"
+        android:textColor="@color/light_black"
+        android:textSize="25dp"
         android:textStyle="bold"
-        android:layout_gravity="end"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="45dp"
-        android:textColor="#00008B"/>
+        android:letterSpacing="0.1"
+        android:layout_marginTop="10dp"/>
 
-    <ProgressBar
-        android:id="@+id/progressbar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:visibility="gone"/>
-    <Button
-        android:id="@+id/login"
-        android:layout_width="350dp"
+
+    <EditText
+
+        android:id="@+id/date"
+        android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_marginTop="10dp"
+        android:background="@drawable/forget"
+        android:paddingLeft="10dp"
+        android:hint="MM/YY"
+        android:textColor="@color/light_black"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/ticketbooo2"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/button"
         android:color="#0d6e6a"
-        android:text="LOGIN"
+        android:text="BOOK TICKET"
         android:textColor="#fff"
         android:textSize="20dp"
         android:textStyle="bold" />

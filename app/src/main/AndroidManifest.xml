@@ -15,6 +15,21 @@
         android:theme="@style/Theme.Railway_system_portal"
         tools:targetApi="31">
         <activity
+            android:name=".thankyou"
+            android:exported="false" />
+        <activity
+            android:name=".carddd2"
+            android:exported="false" />
+        <activity
+            android:name=".upiiii2"
+            android:exported="false" />
+        <activity
+            android:name=".cardd"
+            android:exported="false" />
+        <activity
+            android:name=".upi"
+            android:exported="false" />
+        <activity
             android:name=".refund"
             android:exported="false" />
         <activity

@@ -49,68 +49,31 @@
                 android:orientation="vertical"
                 android:weightSum="2">
 
-                <TextView
-                    android:id="@+id/editTextStartingAddress"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginEnd="8dp"
-                    android:layout_marginBottom="20dp"
-                    android:layout_weight="1"
+                <EditText
+
+                    android:id="@+id/frommm"
+                    android:layout_width="400dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/forget"
+                    android:paddingLeft="10dp"
+                    android:hint="From"
                     android:drawableLeft="@drawable/from"
-                    android:drawablePadding="15dp"
-                    android:ems="10"
-                    />
+                    android:textColor="@color/light_black"
+                    android:textStyle="bold" />
 
-                <Spinner
-                    android:id="@+id/spinnerr1"
-                    android:layout_width="391dp"
+                <EditText
+
+                    android:id="@+id/tooo"
+                    android:layout_width="400dp"
                     android:layout_height="50dp"
-                    android:contentDescription="start_add"
-                    android:layout_marginTop="-55dp"
-                    android:layout_marginBottom="15dp"
-                    android:text="From"
-                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="20dp"
                     android:background="@drawable/forget"
-
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-
-
-                <!--<ImageView-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_gravity="center_horizontal"-->
-                <!--android:src="@drawable/down_arrow" />-->
-
-                <TextView
-                    android:id="@+id/editTextDestinationAddress"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginEnd="8dp"
-                    android:layout_marginBottom="8dp"
-                    android:layout_weight="1"
                     android:drawableLeft="@drawable/dest"
-                    android:drawablePadding="15dp"
-                    android:ems="10"
-                    />
-                <Spinner
-                    android:id="@+id/spinnerr2"
-                    android:layout_width="391dp"
-                    android:layout_height="50dp"
-                    android:background="@drawable/forget"
-                    android:contentDescription="stop_add"
-                    android:layout_marginLeft="45dp"
-                    android:layout_marginTop="-55dp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    android:paddingLeft="10dp"
+                    android:hint="To"
+                    android:textColor="@color/light_black"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -127,7 +90,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:weightSum="2">
+                android:weightSum="2"
+                android:layout_marginTop="20dp">
 
                 <Button
                     android:id="@+id/paymentt"
@@ -164,6 +128,17 @@
                     android:text="User details"
                     android:textColor="@color/black" />
 
+                <TextView
+                    android:id="@+id/result"
+                    android:layout_width="394dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button1"
+                    android:text="results"
+                    android:textColor="@color/black" />
 
             </LinearLayout>
 

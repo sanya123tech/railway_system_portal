@@ -8,17 +8,28 @@ import android.view.View;
 import android.widget.Button;
 
 public class paymentagain extends AppCompatActivity {
-    Button book;
+    Button upii;
+    Button carddd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_paymentagain);
-        book=findViewById(R.id.book2);
-        book.setOnClickListener(new View.OnClickListener() {
+        carddd=findViewById(R.id.card2);
+        carddd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(getApplicationContext(),refund.class);
+                Intent intent=new Intent(getApplicationContext(),cardd.class);
+                startActivity(intent);
+                finish();
+
+            }
+        });
+        upii=findViewById(R.id.upiii2);
+        upii.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(getApplicationContext(),upi.class);
                 startActivity(intent);
                 finish();
 

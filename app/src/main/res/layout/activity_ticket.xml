@@ -59,7 +59,7 @@
         android:id="@+id/starttt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="hhhhhhhh"
+        android:text="start"
         android:textSize="18dp"
         android:textStyle="bold"
         android:layout_gravity="end"
@@ -77,7 +77,7 @@
         android:id="@+id/stoppp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="hhhhhhhh"
+        android:text="destination"
         android:textSize="18dp"
         android:textStyle="bold"
         android:layout_gravity="end"
@@ -97,13 +97,13 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textViewTicketPrice"
+        android:id="@+id/ticketprice"
         android:text="Rs"
         android:textSize="20dp"
         android:textStyle="bold"
         android:layout_gravity="end"
         android:layout_marginTop="-25dp"
-        android:layout_marginRight="250dp"
+        android:layout_marginRight="200dp"
         android:textColor="@color/light_black"
         tools:ignore="ExtraText" />
 
@@ -114,7 +114,7 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/button"
         android:color="#0d6e6a"
-        android:text="Download"
+        android:text="PAY"
         android:textColor="#fff"
         android:textSize="20dp"
         android:textStyle="bold" />

@@ -53,30 +53,18 @@
                 <!--android:layout_height="wrap_content"-->
                 <!--android:layout_gravity="center_horizontal"-->
                 <!--android:src="@drawable/down_arrow" />-->
+                <EditText
 
-                <TextView
-                    android:id="@+id/editTextDestinationAddress"
-                    android:layout_width="match_parent"
+                    android:id="@+id/tooo"
+                    android:layout_width="400dp"
                     android:layout_height="50dp"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginEnd="8dp"
-                    android:layout_marginBottom="8dp"
-                    android:layout_weight="1"
-                    android:drawableLeft="@drawable/dest"
-                    android:drawablePadding="15dp"
-                    android:ems="10" />
-                <Spinner
-                    android:id="@+id/spinnerr3"
-                    android:layout_width="391dp"
-                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
                     android:background="@drawable/forget"
-                    android:contentDescription="stop_add"
-                    android:layout_marginLeft="45dp"
-                    android:layout_marginTop="-55dp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    android:drawableLeft="@drawable/dest"
+                    android:paddingLeft="10dp"
+                    android:hint="To"
+                    android:textColor="@color/light_black"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -86,12 +74,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="25dp"
                 android:layout_marginLeft="25dp"
                 android:weightSum="2">
 
                 <Button
-                    android:id="@+id/paymentt2"
+                    android:id="@+id/bookkk"
                     android:layout_width="411dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -101,7 +89,7 @@
 
                     android:layout_weight="1"
                     android:background="@drawable/button"
-                    android:text="Proceed to payment"
+                    android:text="BOOK"
                     android:textColor="@color/white" />
 
 

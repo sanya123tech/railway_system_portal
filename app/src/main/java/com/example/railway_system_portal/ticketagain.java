@@ -1,5 +1,7 @@
 package com.example.railway_system_portal;
 
+import static com.example.railway_system_portal.ticket.fromdd;
+
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
@@ -14,11 +16,15 @@ import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
 
 public class ticketagain extends AppCompatActivity {
     FirebaseAuth auth;
+    TextView star;
+    TextView stop;
+    TextView pricee;
 
     Button button;
     Button download;
@@ -31,6 +37,28 @@ public class ticketagain extends AppCompatActivity {
         button = findViewById(R.id.logout);
         auth = FirebaseAuth.getInstance();
         download = findViewById(R.id.download);
+        star=findViewById(R.id.startttt);
+        stop=findViewById(R.id.stopppp);
+        String todd=getIntent().getStringExtra("keyuname");
+        stop.setText(todd);
+        pricee=findViewById(R.id.priceeee);
+        if(todd.equals("assembly")){
+            pricee.setText("RS 30");
+        } else if (todd.equals("irrum manzil")) {
+            pricee.setText("RS 10");
+        } else if (todd.equals("khairatabad")) {
+            pricee.setText("RS 20");
+
+        } else if (todd.equals("lakdikapul")) {
+            pricee.setText("RS 30 ");
+
+
+        } else if (todd.equals("nampally")) {
+            pricee.setText("RS 40");
+
+        }
+
+
         if(Build.VERSION.SDK_INT>= Build.VERSION_CODES.O){
             NotificationChannel channel=new NotificationChannel("my notification","my notification", NotificationManager.IMPORTANCE_DEFAULT);
             NotificationManager manager=getSystemService(NotificationManager.class);

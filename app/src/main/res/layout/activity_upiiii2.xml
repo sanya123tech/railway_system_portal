@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="350dp"
+        android:src="@drawable/upi"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="please enter your UPI ID"
+        android:textColor="@color/light_black"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:letterSpacing="0.1"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+
+        android:id="@+id/email"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/forget"
+        android:paddingLeft="10dp"
+        android:hint="UPI ID"
+        android:textColor="@color/light_black"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ticketupi2"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:color="#0d6e6a"
+        android:text="BOOK TICKET"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

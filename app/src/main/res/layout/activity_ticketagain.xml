@@ -47,7 +47,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="hhhhhhhh"
+            android:id="@+id/startttt"
+            android:text="frommmm"
             android:textSize="18dp"
             android:textStyle="bold"
             android:layout_gravity="end"
@@ -64,7 +65,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="hhhhhhhh"
+            android:id="@+id/stopppp"
+            android:text="toooo"
             android:textSize="18dp"
             android:textStyle="bold"
             android:layout_gravity="end"
@@ -84,13 +86,13 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textViewTicketPrice"
+            android:id="@+id/priceeee"
             android:text="Rs"
             android:textSize="20dp"
             android:textStyle="bold"
             android:layout_gravity="end"
             android:layout_marginTop="-25dp"
-            android:layout_marginRight="250dp"
+            android:layout_marginRight="150dp"
             android:textColor="@color/light_black"
             tools:ignore="ExtraText" />
         <LinearLayout
